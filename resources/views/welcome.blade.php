@@ -72,11 +72,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="{{ url('/admin') }}">Begin</a>
+                    Jess
                 </div>
 
                 <div class="links">
-                    An application to implement CRUD and authentication with Laravel @ Diego Machado
+                    An application to implement CRUD and authentication with Laravel @ Diego Machado <br>
+                    <a href="{{ url('/admin') }}">Begin</a>
                 </div>
             </div>
         </div>
