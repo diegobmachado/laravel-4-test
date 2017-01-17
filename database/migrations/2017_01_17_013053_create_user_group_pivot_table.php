@@ -13,7 +13,7 @@ class CreateUserGroupPivotTable extends Migration
     public function up()
     {
         Schema::create('user_group', function (Blueprint $table) {
-            $table->engine = 'InnoDB';
+            //$table->engine = 'InnoDB';
             $table->integer('user_id')->unsigned()->index();
             //$table->foreign('user_id')->references('id')->on('user')->onDelete('cascade');
             $table->integer('group_id')->unsigned()->index();
